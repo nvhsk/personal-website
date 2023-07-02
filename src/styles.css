@@ -1,3 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+font-weight: 500;
+text-decoration: upp;
+}
